@@ -72,8 +72,8 @@ class UserSeeder extends Seeder
         //ADMINISTRADORES POR DEFECTO
 
         User::create([
-            'name' => 'Juan Pablo Rodriguez',
-            'email' => 'pablojuan123sc@gmail.com',
+            'name' => 'Juan Daniel Peñaranda',
+            'email' => 'peñaranda@gmail.com',
             'password' => bcrypt(12345678)
         ])->assignRole('Administrador');
         User::create([
